@@ -1,6 +1,6 @@
 h1,
 h2 {
-  font-family: "Poppins";
+  font-family: "Inter",sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 60px;
@@ -15,7 +15,7 @@ body {
 }
 
 .pre {
-  font-family: "Poppins";
+  font-family: "Inter",sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -24,7 +24,7 @@ body {
 }
 
 .unique h1 {
-  font-family: "Poppins";
+  font-family: "Inter",sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 20px;
@@ -33,7 +33,7 @@ body {
 }
 
 .Home {
-  font-family: "Poppins";
+  font-family: "Inter",sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 20px;
@@ -91,7 +91,7 @@ body {
 }
 
 .head-paragraph {
-  font-family: "Poppins";
+  font-family: "Inter",sans-serif;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
