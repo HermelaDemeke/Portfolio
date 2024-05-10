@@ -1,0 +1,135 @@
+h1,
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #091e42;
+}
+
+body {
+  background-image: url(./images/Header\ bg.svg);
+  background-size: cover;
+}
+
+.pre {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #344563;
+}
+
+.unique h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #6070ff;
+}
+
+.Home {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+  color: #344563;
+  text-decoration: none;
+}
+
+.Home li {
+  display: inline;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 4%;
+}
+
+.social-media a {
+  margin-left: 4%;
+}
+
+.Home a:hover {
+  color: brown;
+}
+
+@media (max-width: 767px) {
+  .Home {
+    display: none;
+  }
+
+  body {
+    background-image: url(./images/header-shapes\ mobile.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .list {
+    display: none;
+  }
+}
+
+.list {
+  align-self: flex-end;
+  font-family: var(font-family);
+  color: #344563;
+  width: 40px;
+  height: 30px;
+}
+
+.list svg {
+  align-self: flex-end;
+  width: 40px;
+}
+
+.head-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.Connect {
+  font-family: "Inter", sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  width: 117px;
+  height: 24px;
+  color: #7f8cff;
+}
+
+.Connect:hover {
+  color: rgb(255, 0, 0);
+}
+
+.He {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 7vh;
+}
+
+.Head {
+  color: rgb(11, 1, 1);
+  font: bolder;
+  font-size: 30px;
+}
+
+.main-container {
+  height: 93vh;
+  margin-left: 20%;
+  margin-top: 10%;
+}
