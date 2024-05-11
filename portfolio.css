@@ -285,49 +285,45 @@ h2 {
 }
 
 .HJC {
-  width: 500px;
-  height: 66.72px;
+  width: 600px;
+  height: 80px;
   padding: 9px 12px 9.72px 12px;
   gap: 20px;
   border-radius: 9px 0 0 0;
   background: #f7f7f9;
-  margin-bottom: 6%;
+  margin-bottom: 8%;
   display: flex;
   justify-content: flex-start;
   margin-right: 10%;
+  justify-content: space-between;
+}
+.HJC img  {
+display: flex;
+height: 300%;
+justify-content: space-around;
+width: 90px;
+top: 21px;
+  left: 76px;
 }
 
 .HJC li {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-right: 10%;
+  justify-content: space-between;
+  margin-right: 15%;
   margin-bottom: 6%;
 
   /* text-align: center; */
-  gap: 1%;
+  gap: 5%;
   color: #253858;
   font-family: "Inter", sans-serif;
-  font-size: 100px;
-  font-weight: 800;
-  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
   text-align: left;
-}
-
-.drag li {
-  width: 215px;
-  height: 24px;
-  top: 21px;
-  left: 76px;
-  gap: 0;
-  opacity: 0;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
+  margin-top: 5%;
   text-align: left;
   color: #253858;
-  list-style-type: none;
 }
 
 .frame-skill {
