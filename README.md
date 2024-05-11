@@ -1,3 +1,4 @@
+
 <h1>Project Title: Trail Project 2</h1>
 
 <h2>Description</h2>
@@ -37,3 +38,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 <h4>License</h4>
 This project is licensed under the MIT License.
+
