@@ -9,9 +9,17 @@ h2 {
   color: #091e42;
 }
 
-body {
-  background-image: url(./images/Header\ bg.svg);
-  background-size: cover;
+.back-ground {
+  background-image: url(images/Header\ bg.svg);
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0% 10% 10% 0%;
+  justify-content: left;
+  background-size: 105%;
 }
 
 .pre {
@@ -56,6 +64,18 @@ body {
   margin-left: 4%;
 }
 
+.seePro a {
+  width: 102px;
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #396df2;
+}
+
 .Home a:hover {
   color: brown;
 }
@@ -63,11 +83,6 @@ body {
 @media (max-width: 767px) {
   .Home {
     display: none;
-  }
-
-  body {
-    background-image: url(./images/header-shapes\ mobile.png);
-    background-size: cover;
   }
 }
 
@@ -132,4 +147,194 @@ body {
   height: 93vh;
   margin-left: 20%;
   margin-top: 10%;
+}
+
+#head2 {
+  height: hug (32px)px;
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  width: 150%;
+  height: 15%;
+}
+
+.left li {
+  margin-right: 10%;
+}
+
+.can {
+  width: 55px;
+  height: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: bolder;
+  line-height: 16px;
+  text-align: left;
+  color: #344563;
+  list-style-type: none;
+}
+
+.back {
+  width: 88px;
+  height: 16px;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color: #7a869a;
+}
+
+.para {
+  width: 295px;
+  height: 76px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+  margin-top: 10%;
+}
+
+.program {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: hug (57px)px;
+  height: hug (24px)px;
+  list-style-type: none;
+}
+
+.program li {
+  width: hug (214px)px;
+  height: hug (24px)px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #6070ff;
+  margin-right: 3%;
+}
+
+.seePro {
+  width: hug (126px)px;
+  height: hug (48px)px;
+  top: 12px;
+  padding: 12px 0 0 0;
+  gap: 10px;
+  display: flex;
+  border: solid #6070ff;
+  border-width: thin;
+  margin-top: 10%;
+  margin-right: 60%;
+  border-radius: 8px;
+}
+
+.image {
+  margin-top: 12%;
+}
+
+.pro {
+  width: hug (57px)px;
+  height: hug (24px)px;
+  padding: 16px 12px 4px 12px;
+  border-radius: 8px 0 0 0;
+  background: #ebebff;
+}
+
+.try img {
+  margin-top: 42%;
+}
+
+.resume {
+  width: 250px;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #396df2;
+  margin-top: 5%;
+}
+
+.res {
+  width: hug (162px)px;
+  height: hug (48px)px;
+  padding: 8px 0 0 0;
+  gap: 10px;
+  border-radius: 8px 0 0 0;
+
+  /* border: 8px 0 0 0; */
+  opacity: 0;
+  border: 1px solid #6070ff;
+}
+
+.HJC {
+  width: 600px;
+  height: 80px;
+  padding: 9px 12px 9.72px 12px;
+  gap: 20px;
+  border-radius: 9px 0 0 0;
+  background: #f7f7f9;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10%;
+}
+
+.HJC img {
+  display: flex;
+  height: 300%;
+  justify-content: space-around;
+  width: 90px;
+  top: 21px;
+  left: 76px;
+}
+
+.HJC li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 15%;
+  margin-bottom: 6%;
+
+  /* text-align: center; */
+  gap: 5%;
+  color: #253858;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.frame-skill {
+  margin-left: 1%;
+  gap: 20%;
+  justify-content: space-between;
+}
+
+.languages {
+  display: flex;
+  padding-left: 0%;
+  flex-direction: row;
+  gap: 23%;
+  margin-top: 3%;
+  justify-content: space-between;
 }
