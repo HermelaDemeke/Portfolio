@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="./portfolio.css"/>
 </head>
 <body>
-
-<section>
-
 <section >
     <div class="He">
     <div class="unique">
         <a href="#">My Logo </a>
     </div>
-    <nav class="nav">
+
         <div class="list">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -23,14 +20,14 @@
         fill="#6070FF"/>
     </svg>
     </div>
-    <div> 
+    <div class="hom"> 
         <ul class="Home">
-       <li> <a href="#">Portfolio</a> </li>
-       <li> <a href="#">About</a> </li>
-        <li><a href="#">Contact</a> 
+       <li class="aa"> <a href="#">Portfolio</a> </li>
+       <li class="aa"> <a href="#">About</a> </li>
+        <li class="aa"><a href="#">Contact</a> 
         </ul>
     </div>
-    </nav>
+   
     </div>
 </section>
 
@@ -66,7 +63,7 @@
     <section class="try">
 
             <div class="image">
-            <img src="./images/FB.jpg" alt="Snapshoot" class="image"/>
+            <img src="./images/FB.jpg" alt="Snapshoot" />
             </div>
 
             <div>
@@ -96,9 +93,9 @@ no accounts or sign-ups required.
 </div>
     </section>
 
-    <section class="try2">
-        <div>
-        <img src="./images/AVAIL.jpg" alt="availability" class="image">
+    <section class="try">
+        <div class="image">
+        <img src="./images/AVAIL.jpg" alt="availability" >
         </div>
         <div>
             <h1 id="head2">Multi-Post <br> Stories</h1>
@@ -126,10 +123,11 @@ no accounts or sign-ups required.
         </div>
         </div>
     </section>
-    <section>
-        <div>
-        <img src="./images/circus.jpg" alt="Serkes" class="image"/>
+    <section class="try">
+        <div class="image">
+        <img src="./images/circus.jpg" alt="Serkes" />
         </div>
+        <div>
         <div>
             <h1 id="head2">Multi-Post <br> Stories</h1>
             <ul class="left">
@@ -155,11 +153,13 @@ no accounts or sign-ups required.
         <div class="seePro" >
             <a href="#">See project</a> 
         </div>
-    </section>
-    <section>
-        <div>
-            <img src="./images/flower.jpg" alt="flow" class="image" />
         </div>
+    </section>
+    <section class="try">
+        <div class="image">
+            <img src="./images/flower.jpg" alt="flow"  />
+        </div>
+        <div>
         <div>
             <h1 id="head2">Multi-Post <br> Stories</h1>
             <ul class="left">
@@ -168,6 +168,7 @@ no accounts or sign-ups required.
                 <li class="back">2024</li>
             </ul>
         </div>
+       
         <div>
             <pre class="para">
                     A daily selection of privately personalized reads;
@@ -184,9 +185,11 @@ no accounts or sign-ups required.
         <div class="seePro">
          <a href="#">See project</a>
         </div>
+        </div>
     </section>
 
-    <section>
+    <section class="about">
+        <div>
             <b><h1>About Myself</h1></b>
             <p >
             Hi I’m a software developer! <br>
@@ -211,6 +214,8 @@ no accounts or sign-ups required.
             <div class="resume">
                 <h3 class="res">Get my resume</h3>
             </div>
+            </div>
+            <div>
             <nav >
                 <div class="languages">
                 Languages<img src="./images/Icon - Chevron - Down - Larger.png" alt="drop">
@@ -236,6 +241,7 @@ no accounts or sign-ups required.
                         fill="#505F79" />
                 </svg>
             </li>
+            <hr width="700">
             <li class="languages">
                 <div class="frame-skill"> Skill
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
@@ -246,11 +252,34 @@ no accounts or sign-ups required.
                 </svg>
             </li>
         </div>
+        </div>
     </section>
+<section class="contact">
+        <div id="hearme">Contact me</div>
+        <div>
+            <p id="hearme2">
+                If you have an application you are interested <br>
+                 in developing, a feature that you need built or <br>
+                a project that needs coding. <br>I’d love to help with it!
+            </p>
+        </div>
+        <div class="form">
+            <form action="https://formspree.io/f/mvoeykll" method="post">
+                <input type="text" name="fullName" class="fname" placeholder="Enter your name (up to 30 characters)"
+                    maxlength="30" required><br> <br>
+                <input type="email" name="email" class="email1" placeholder="Enter your email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required
+                    title="Please enter a valid email address">
+                <br> <br>
+                <textarea class="area" name="message" placeholder="Write your message here" maxlength="500"
+                    required></textarea>
+                <input type="submit" class="submit" value="Get in touch">
+            </form>
+        </div>
 
-    <section  class="contact" >
-        
-
+</section>
+    <!-- <section  class="contact" >
+    
             <div class="contactme" >
                <h1> Contact me</h1>
                 </div>
@@ -261,6 +290,7 @@ no accounts or sign-ups required.
              project that needs <br>
             I’d love to help with it!
         </pre>
+<div class="form">
         <form action="https://formspree.io/f/mvoeykll" method="post">
             <div class="zoro">
 <input type="text" id="name" class="name" placeholder="please fill your name " required minlength="30" > <br>
@@ -269,9 +299,9 @@ no accounts or sign-ups required.
 <input type="submit" value="Get in touch" class="Get" id="Get">
 </div>
         </form>
-
+</div>
         
-    </section>
-
+    </section> -->
+</section>
 </body>
 </html>
