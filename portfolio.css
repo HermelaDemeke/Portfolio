@@ -1,34 +1,63 @@
-.He {
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(98, 82, 82, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: rgb(256, 256, 256);
-  height: 7vh;
+  color: black;
 }
 
-.list {
+nav ul {
+  width: 100%;
+  list-style: none;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
-.nav li {
-  padding: 10%;
-  display: inline;
-  text-decoration: none;
+nav a:hover {
+  background-color: #f0f0f0;
 }
 
-.nav a:hover {
-  color: red;
+.HJC li {
+  width: 308px;
+  height: 66.72px;
+  padding: 9px 12px 9.72px 12px;
+  border-radius: 8px 0 0 0;
+  background: #f7f7f9;
 }
 
-.unique h1 {
-  color: blueviolet;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.sidebar li {
+  width: 100%;
 }
 
-.list svg {
-  align-self: flex-end;
-  width: 40px;
+nav li:first-child {
+  margin-right: auto;
 }
 
 .main-container {
@@ -84,7 +113,11 @@
 }
 
 @media (min-width: 375px) {
-  .Home {
+  .menu-button {
+    display: block;
+  }
+
+  .hideOnMobile {
     display: none;
   }
 
@@ -138,34 +171,18 @@
   gap: 12px;
 }
 
-.HJC li {
-  width: 308px;
-  height: 66.72px;
-  padding: 9px 12px 9.72px 12px;
-  border-radius: 8px 0 0 0;
-  background: #f7f7f9;
-}
-
 @media (min-width: 768px) {
-  .list {
+  .menu-button {
     display: none;
   }
 
-  .Home {
-    display: flex;
-    justify-content: flex-end;
+  .hideOnMobile {
+    display: block;
   }
 
   .HJC {
     display: flex;
-    flex-direction: row;
-  }
-
-  .Home li {
-    display: block;
-    margin: 10px 0;
-    text-decoration: none;
-    margin-right: 10%;
+    flex-direction: column;
   }
 
   .back-ground {
