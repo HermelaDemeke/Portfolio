@@ -33,6 +33,9 @@ Modify the existing CSS rules or add new ones to achieve the desired visual effe
 Save the changes.
 Refresh the web page in your browser to see the updated styles applied.
 
+<h1>Deployment</h1>
+You can deploy this project using: https://hermelademeke.github.io/Portfolio/
+
 <h4>Contributing</h4>
 Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or a pull request. Make sure to follow the existing code style and guidelines.
 
