@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./portfolio.css"/>
 </head>
 <body>
+    <script type="text/JavaScript" src="index.js"></script>
 <section >
     <div class="He">
     <div class="unique">
@@ -39,14 +40,14 @@
         </div>
     </nav>
     <script>
-        function showSidebar(){
-            const sidebar = document.querySelector(".sidebar")
-            sidebar.style.display='flex'
-        }
-        function hideSidebar(){
-            const sidebar = document.querySelector(".sidebar")
-            sidebar.style.display = 'none'
-        }
+    function showSidebar(){
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.display='flex'
+    }
+    function hideSidebar(){
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.display = 'none'
+    }
     </script>
     </div>
 </section>
@@ -234,7 +235,7 @@ no accounts or sign-ups required.
             <div>
             <b><h1>About Myself</h1></b>
             </div>
-            <p>
+            <p class="para">
             Hi I’m a software developer!I can<br>
              help you build a product , feature or <br>
              website. Look through some of my work <br>
@@ -264,6 +265,7 @@ no accounts or sign-ups required.
                <b>Languages</b> 
                <img src="./images/Icon - Chevron - Down - Larger.png" alt="drop">
             </div>
+            <ul class="HJ">
                 <div class="HJC" >
                 <li><img src="./images/Ellipse 1.png" alt="JavaScript">JavaScript</li>
                 </div>
@@ -310,20 +312,40 @@ no accounts or sign-ups required.
                  that needs coding.I’d love to help with it!
             </p>
         </div>
-            <form action="https://formspree.io/f/mvoeykll" method="post">
+            <form id="myForm" action="https://formspree.io/f/mvoeykll" method="post">
                 <div class="form">
                 <input type="text-field" name="fullName" class="fname" placeholder="Enter your name (up to 30 characters)"
                     maxlength="30" required><br> <br>
-                <input type="email" name="email" class="email" placeholder="Enter your email"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required
-                    title="Please enter a valid email address">
+                <input type="email" name="email" id="email" class="mail" placeholder="Enter your email" required
+                    title="Please enter a valid email address" > <br><br>
                 <textarea  class="Area" name="message" placeholder="Write your message here" maxlength="500"
                     required></textarea>
+                    <span id="error-message" ></span>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="contbtn">Get in touch</button>
                 </div>
              </form>
-             <div class="btn">
-<button class="contbtn">Get in touch</button>
-             </div>       
+            <script>
+                const form = document.getElementById('myForm');
+                const emailInput = document.getElementById('email');
+                const errorMessage = document.getElementById('error-message');
+
+                form.addEventListener('submit', (event) => {
+                    event.preventDefault();
+
+                    const email = emailInput.value;
+
+                    if (email === email.toLowerCase()) {
+                        form.submit();
+                    } else {
+                        errorMessage.textContent = 'Please enter your email in lowercase.';
+                    }
+                });
+            </script>
+
+           
+            
 </section>
 </body>
 </html>
